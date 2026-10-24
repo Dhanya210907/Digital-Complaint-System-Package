@@ -348,3 +348,167 @@
 25-Oct-2026 01:05:54.383 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package-main/tools/apache-tomcat-10.1.61/webapps/digital-complaint-system.war]
 25-Oct-2026 01:05:54.618 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
 25-Oct-2026 01:05:54.622 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package-main/tools/apache-tomcat-10.1.61/webapps/digital-complaint-system.war] has finished in [239] ms
+25-Oct-2026 01:14:02.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            27.0
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.1+8-34
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61
+25-Oct-2026 01:14:02.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61
+25-Oct-2026 01:14:02.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/conf/logging.properties
+25-Oct-2026 01:14:02.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2026 01:14:02.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Oct-2026 01:14:02.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Oct-2026 01:14:02.632 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61
+25-Oct-2026 01:14:02.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/temp
+25-Oct-2026 01:14:02.637 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/sreedhanyataicloud.com/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+25-Oct-2026 01:14:02.732 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Oct-2026 01:14:02.738 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1312)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:543)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:962)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:865)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:333)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:494)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:378)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1938)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1956)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:959)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:95)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1310)
+		... 11 more
+25-Oct-2026 01:14:02.739 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [171] milliseconds
+25-Oct-2026 01:14:02.751 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Oct-2026 01:14:02.751 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+25-Oct-2026 01:14:02.759 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/webapps/digital-complaint-system.war]
+25-Oct-2026 01:14:02.765 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/webapps/digital-complaint-system] was found with a last modified time that did not match the associated WAR. It will be deleted.
+25-Oct-2026 01:14:03.080 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Oct-2026 01:14:03.095 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/webapps/digital-complaint-system.war] has finished in [335] ms
+25-Oct-2026 01:14:03.096 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [356] milliseconds
+25-Oct-2026 01:14:03.098 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.Net.bind(Net.java:514)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:645)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:536)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:994)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:943)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+25-Oct-2026 01:14:03.098 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Oct-2026 01:14:03.098 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Oct-2026 01:14:03.101 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Oct-2026 01:14:03.101 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+25-Oct-2026 01:16:09.371 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version name:   Apache Tomcat/10.1.61
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Oct 6 2026 22:56:25 UTC
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version number: 10.1.61.0
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            27.0
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          aarch64
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Library/Java/JavaVirtualMachines/jdk-26.jdk/Contents/Home
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           26.0.1+8-34
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61
+25-Oct-2026 01:16:09.372 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61
+25-Oct-2026 01:16:09.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/conf/logging.properties
+25-Oct-2026 01:16:09.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+25-Oct-2026 01:16:09.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+25-Oct-2026 01:16:09.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+25-Oct-2026 01:16:09.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dsun.io.useCanonCaches=false
+25-Oct-2026 01:16:09.376 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+25-Oct-2026 01:16:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+25-Oct-2026 01:16:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+25-Oct-2026 01:16:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+25-Oct-2026 01:16:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+25-Oct-2026 01:16:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+25-Oct-2026 01:16:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+25-Oct-2026 01:16:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61
+25-Oct-2026 01:16:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61
+25-Oct-2026 01:16:09.377 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/temp
+25-Oct-2026 01:16:09.381 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/sreedhanyataicloud.com/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+25-Oct-2026 01:16:09.476 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+25-Oct-2026 01:16:09.483 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Failed to initialize component [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1312)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:543)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:962)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:128)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:833)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:865)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:305)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:484)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:333)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:296)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:494)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:378)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1938)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1956)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:959)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:95)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1310)
+		... 11 more
+25-Oct-2026 01:16:09.484 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [170] milliseconds
+25-Oct-2026 01:16:09.495 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+25-Oct-2026 01:16:09.495 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/10.1.61]
+25-Oct-2026 01:16:09.503 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/webapps/digital-complaint-system.war]
+25-Oct-2026 01:16:09.509 INFO [main] org.apache.catalina.startup.ExpandWar.expand An expanded directory [/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/webapps/digital-complaint-system] was found with a last modified time that did not match the associated WAR. It will be deleted.
+25-Oct-2026 01:16:09.823 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+25-Oct-2026 01:16:09.838 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/sreedhanyataicloud.com/Downloads/Digital-Complaint-System-Package/tools/apache-tomcat-10.1.61/webapps/digital-complaint-system.war] has finished in [334] ms
+25-Oct-2026 01:16:09.839 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [355] milliseconds
+25-Oct-2026 01:16:09.841 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:525)
+		at java.base/sun.nio.ch.Net.bind(Net.java:514)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:645)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:326)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:222)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:536)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:994)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:943)
+		at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:565)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:348)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:485)
+25-Oct-2026 01:16:09.841 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+25-Oct-2026 01:16:09.841 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+25-Oct-2026 01:16:09.844 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+25-Oct-2026 01:16:09.844 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
